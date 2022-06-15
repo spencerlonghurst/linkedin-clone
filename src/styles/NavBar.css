@@ -1,0 +1,14 @@
+.nav_bar {
+  background-color: #ffffff;
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.left_nav {
+
+}
+
+.linkedin_icon {
+  color: #0d66c2;
+  font-size: 45px !important;
+}
