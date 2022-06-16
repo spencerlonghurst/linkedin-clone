@@ -1,9 +1,10 @@
 import '../../styles/Home.css'
+import LeftHome from './LeftHome';
 
 function Home() {
   return (
     <div className="App">
-      <h1>LinkedIn Home</h1>
+      <LeftHome />
     </div>
   );
 }
