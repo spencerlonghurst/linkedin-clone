@@ -1,0 +1,27 @@
+.left_home {
+  border: 1px solid #e2e1de;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  width: 225px;
+  border-radius: 12px;
+
+  margin-left: 5%;
+}
+
+.left_images img {
+  width: 100%;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.left_avatar {
+  display: flex;
+  justify-content: center;
+  margin-top: -18.3%;
+}
+
+.left_images_avatar {
+  height: 68px;
+  width: 68px;
+  border: 2px solid white;
+}
