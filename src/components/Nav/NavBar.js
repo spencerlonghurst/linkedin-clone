@@ -16,29 +16,29 @@ function NavBar() {
         <input type='text' placeholder='Search'/>
       </div>
       <div className='right_nav'>
-        <div>
+        <div className='nav_button home'>
           <HomeRoundedIcon />
-          <p>Home</p>
+          <p className='nav_words'>Home</p>
         </div>
-        <div>
-        <PeopleAltRoundedIcon />
-        <p>My Network</p>
+        <div className='nav_button my_network'>
+          <PeopleAltRoundedIcon />
+          <p className='nav_words'>My Network</p>
         </div>
-        <div>
-        <WorkRoundedIcon />
-        <p>Jobs</p>
+        <div className='nav_button jobs'>
+          <WorkRoundedIcon />
+          <p className='nav_words'>Jobs</p>
         </div>
-        <div>
-        <SmsRoundedIcon />
-        <p>Messaging</p>
+        <div className='nav_button messaging'>
+          <SmsRoundedIcon />
+          <p className='nav_words'>Messaging</p>
         </div>
-        <div>
-        <NotificationsRoundedIcon />
-        <p>Notifications</p>
+        <div className='nav_button notifications'>
+          <NotificationsRoundedIcon />
+          <p className='nav_words'>Notifications</p>
         </div>
-        <div>
-        <Avatar />
-        <p>Me</p>
+        <div className='nav_button me'>
+          <Avatar />
+          <p className='nav_words'>Me</p>
         </div>
       </div>
     </div>
