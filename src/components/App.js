@@ -5,12 +5,14 @@ import Notifications from './Notifications/Notifications';
 import Messaging from './Messaging/Messaging';
 import Jobs from './Jobs/Jobs';
 import MyNetwork from './My-Network/MyNetwork'
+import NavBar from './Nav/NavBar';
 
 function App() {
   return (
     <Router>
 
       <div className='main_app'>
+          <NavBar />
         <Routes>
           <Route path='/notifications' element={<Notifications />}/>
           <Route path='/messaging' element={<Messaging />}/>
