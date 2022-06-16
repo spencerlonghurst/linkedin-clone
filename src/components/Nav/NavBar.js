@@ -12,39 +12,39 @@ import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div className='nav_bar'>
-      <Link to='/feed'>
+      <Link to='/'>
         <div className='left_nav'>
           <LinkedInIcon className='linkedin_icon'/>
           <input type='text' placeholder='Search'/>
         </div>
       </Link>
       <div className='right_nav'>
-      <Link to='/feed'>
-        <div className='nav_button home'>
+      <Link to='/' className='nav_button home'>
+        <div>
           <HomeRoundedIcon />
           <p className='nav_words'>Home</p>
         </div>
       </Link>
-      <Link to='mynetwork'>
-        <div className='nav_button my_network'>
+      <Link to='mynetwork' className='nav_button my_network'>
+        <div>
           <PeopleAltRoundedIcon />
           <p className='nav_words'>My Network</p>
         </div>
       </Link>
-      <Link to='jobs'>
-        <div className='nav_button jobs'>
+      <Link to='jobs' className='nav_button jobs'>
+        <div>
           <WorkRoundedIcon />
           <p className='nav_words'>Jobs</p>
         </div>
       </Link>
-      <Link to='messaging'>
-        <div className='nav_button messaging'>
+      <Link to='messaging' className='nav_button messaging'>
+        <div>
           <SmsRoundedIcon />
           <p className='nav_words'>Messaging</p>
         </div>
       </Link>
-      <Link to='notifications' >
-        <div className='nav_button notifications'>
+      <Link to='notifications' className='nav_button notifications'>
+        <div>
           <NotificationsRoundedIcon />
           <p className='nav_words'>Notifications</p>
         </div>
