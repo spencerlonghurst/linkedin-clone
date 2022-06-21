@@ -37,22 +37,15 @@ function LeftHome() {
           </div>
         </div>
         <div>
-          <p><BookmarkIcon/> My Items</p>
+          <p className='my_items'><BookmarkIcon className='my_items_bookmark'/> My Items</p>
         </div>
       </div>
       <div className='left_bottom'>
-        <div>
-          <p>Groups</p>
-        </div>
-        <div>
-          <p>Events</p>
-          <p>+</p>
-        </div>
-        <div>
-          <p>Followed Hashtags</p>
-        </div>
+          <p className='left_bottom_item groups'>Groups</p>
+          <p className='left_bottom_item'>Events</p>
+          <p className='left_bottom_item hastags'>Followed Hashtags</p>
         <div className='left_bottom_bottom'>
-          <p>Discover more</p>
+          <p className='discover_more'>Discover more</p>
         </div>
       </div>
 
