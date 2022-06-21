@@ -1,0 +1,12 @@
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 1.5%;
+}
+
+.home_content {
+  border: 1px solid #e2e1de;
+  width: 525px;
+  margin: 0% 1.7%;
+}

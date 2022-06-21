@@ -19,7 +19,7 @@ function NavBar() {
         </div>
       </Link>
       <div className='right_nav'>
-      <Link to='/' className='nav_button home'>
+      <Link to='/' className='nav_button feed'>
         <div>
           <HomeRoundedIcon />
           <p className='nav_words'>Home</p>
