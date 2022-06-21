@@ -19,13 +19,21 @@ function LeftHome() {
         </div>
         <div className='left_stats'>
           <div className='left_stats_top'>
+            <div className='left_stats_top_inner'>
             <p>Who's viewed your profile</p>
-            <p>100</p>
+            <p className='stat_number'>100</p>
+            </div>
           </div>
           <div className='left_stats_bottom'>
-            <p>Connecttions</p>
-            <p>143</p>
-            <p>Grow your network</p>
+            <div className='left_stats_bottom_inner'>
+            <div className='stats_connections'>
+              <p>Connections</p>
+              <p className='stat_number'>143</p>
+            </div>
+            <div>
+              {/* <p className='grow'>Grow your network</p> */}
+            </div>
+            </div>
           </div>
         </div>
         <div>
