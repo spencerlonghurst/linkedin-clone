@@ -7,6 +7,7 @@ import WorkRoundedIcon from '@mui/icons-material/WorkRounded';
 import SmsRoundedIcon from '@mui/icons-material/SmsRounded';
 import NotificationsRoundedIcon from '@mui/icons-material/NotificationsRounded';
 import Avatar from '@mui/material/Avatar';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { Link } from "react-router-dom";
 
 function NavBar() {
@@ -51,7 +52,7 @@ function NavBar() {
       </Link>
         <div className='nav_button me'>
           <Avatar />
-          <p className='nav_words'>Me</p>
+          <p className='nav_words'>Me <ArrowDropDownIcon /></p>
         </div>
       </div>
     </div>
