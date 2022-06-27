@@ -10,7 +10,7 @@ function WritePost() {
   return (
     <div className='write_post'>
       <div className='post_input_parent'>
-        <Avatar className='post_input_avatar' src='https://media-exp2.licdn.com/dms/image/D4E35AQH9q2RXkLC18w/profile-framedphoto-shrink_100_100/0/1652462716437?e=1656025200&v=beta&t=7FWolyM3e2jSp7TMnnsQ_cGviUaefH0wh66B6arq87k'/>
+        <Avatar className='post_input_avatar' src='https://media-exp2.licdn.com/dms/image/D4E35AQH9q2RXkLC18w/profile-framedphoto-shrink_100_100/0/1652462716437?e=1656950400&v=beta&t=0qqQ6yxhH0ShWbjLMF3FbaYYR2Nq4LKGHFttnvKPYg4'/>
         <input className='post_input' type='text' placeholder='Start a post about a topic that excites you'/>
       </div>
       <div className='write_post_options'>

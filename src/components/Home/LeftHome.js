@@ -10,7 +10,7 @@ function LeftHome() {
         <div className='left_images'>
           <img src='https://media-exp2.licdn.com/dms/image/C5616AQFjtzNNJPvQiQ/profile-displaybackgroundimage-shrink_200_800/0/1638220103110?e=1660780800&v=beta&t=gpnQUxKoWncaVq9FQ0SL2O--PQ7HisoOBUB1rpOd_eI' alt='cover'/>
           <div className='left_avatar'>
-            <Avatar className='left_images_avatar' src='https://media-exp2.licdn.com/dms/image/D4E35AQH9q2RXkLC18w/profile-framedphoto-shrink_100_100/0/1652462716437?e=1656025200&v=beta&t=7FWolyM3e2jSp7TMnnsQ_cGviUaefH0wh66B6arq87k'/>
+            <Avatar className='left_images_avatar' src='https://media-exp2.licdn.com/dms/image/D4E35AQH9q2RXkLC18w/profile-framedphoto-shrink_100_100/0/1652462716437?e=1656950400&v=beta&t=0qqQ6yxhH0ShWbjLMF3FbaYYR2Nq4LKGHFttnvKPYg4'/>
           </div>
         </div>
         <div className='left_data'>

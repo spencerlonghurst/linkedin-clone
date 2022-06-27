@@ -51,7 +51,7 @@ function NavBar() {
         </div>
       </Link>
         <div className='nav_button me'>
-          <Avatar />
+          <Avatar src='https://media-exp2.licdn.com/dms/image/D4E35AQH9q2RXkLC18w/profile-framedphoto-shrink_100_100/0/1652462716437?e=1656950400&v=beta&t=0qqQ6yxhH0ShWbjLMF3FbaYYR2Nq4LKGHFttnvKPYg4'/>
           <p className='nav_words'>Me <ArrowDropDownIcon /></p>
         </div>
       </div>
