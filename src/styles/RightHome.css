@@ -4,6 +4,7 @@
   background-color: #ffffff;
   border-radius: 12px;
   padding-bottom: 4%;
+  margin-bottom: 2%;
 }
 
 .right_home_title {
@@ -15,7 +16,7 @@
 .right_home_bottom {
   top: 0;
   position: sticky;
-  padding-top: 5%;
+  padding-top: 3%;
 }
 
 .small_text {

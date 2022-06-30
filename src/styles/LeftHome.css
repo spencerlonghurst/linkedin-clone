@@ -111,7 +111,7 @@
   /* margin-left: 5%;
   margin-right: 5%; */
   padding: 1.7% 0%;
-  width: 100%
+  width: 100%;
 }
 
 .stat_number {
@@ -154,6 +154,10 @@
   color: #0d66c2;
   font-weight: 550;
   font-size: 12px;
+
+  top: 2%;
+  position: sticky;
+  padding-top: 5%;
 
   /* margin-left: 5%; */
 }
