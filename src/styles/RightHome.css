@@ -1,14 +1,56 @@
-.right_home {
+.right_home_top {
   width: 320px;
   border: 1px solid #e2e1de;
   background-color: #ffffff;
   border-radius: 12px;
-  height: 100%;
-  padding-bottom: 1.5%;
+  padding-bottom: 4%;
 }
 
 .right_home_title {
   font-size: 16px;
   font-weight: 550;
   padding: 4% 0% 2% 4%;
+}
+
+.right_home_bottom {
+  top: 0;
+  position: sticky;
+  padding-top: 5%;
+}
+
+.small_text {
+  color: #6c6c6b;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.small_text_line {
+  display: flex;
+  /* border: 1px solid green; */
+  width: 80%;
+  justify-content: center;
+}
+
+.small_text_line p {
+  /* border: 1px solid red; */
+  padding: 2.5% 3.5%;
+  /* width: 150% */
+  cursor: pointer;
+}
+
+.small_text_line p:hover {
+  color: #0d66c2;
+  text-decoration: underline;
+}
+
+.developed_by {
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  top: 0;
+  position: sticky;
 }
