@@ -5,6 +5,7 @@ import ContentCard from './ContentCard'
 function Content() {
   return (
     <div className='content'>
+      <hr className='content_horizontal_line'/>
       <ContentCard 
         image='https://media-exp2.licdn.com/dms/image/C4D0BAQFY3BGhoMwEEA/company-logo_200_200/0/1626195279622?e=1664409600&v=beta&t=aDMV86Socv7bm8G4pRNrGtIkxb2MTfUQp1brjoAXu3s'
         name='Github'

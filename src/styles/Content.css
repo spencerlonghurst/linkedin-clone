@@ -1,3 +1,8 @@
-.content {
-  /* border: 1px solid aqua; */
+.content_horizontal_line {
+  height: 1px;
+  border: 0;
+  background-color: #bebebe;;
+
+  margin: 2.5% 0%;
 }
+
