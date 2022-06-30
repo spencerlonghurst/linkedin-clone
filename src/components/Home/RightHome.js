@@ -5,7 +5,7 @@ import NewsCard from './NewsCard';
 function RightHome() {
   return (
     <div className='right_home'>
-      <h2>LinkedIn News</h2>
+      <h2 className='right_home_title'>LinkedIn News</h2>
       <ul>
       <NewsCard 
         title='Bootcamp grads rush to the job search'
@@ -20,7 +20,7 @@ function RightHome() {
         subtitle='14m • 380 readers'
       />
       <NewsCard 
-        title='Strong talen emerging from young coders'
+        title='Strong talent emerging from young coders'
         subtitle='16m • 10,453 readers'
       />
       <NewsCard 

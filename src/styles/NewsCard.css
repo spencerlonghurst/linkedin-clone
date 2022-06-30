@@ -1,0 +1,29 @@
+.newscard {
+  /* margin-bottom: 5%; */
+  /* border: 1px solid red; */
+  width: 90%
+}
+
+.newscard_title {
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.newscard_subtitle {
+  color: #6a6a6a;
+  font-size: 13px;
+}
+
+ul {
+  list-style: none; /* Remove default bullets */
+}
+
+ul li::before {
+  content: "\2022";
+  color: #666666;
+  font-weight: bold; 
+  display: inline-block; 
+  width: 1em; 
+  margin-left: -1em;
+  font-size: 25px;
+}

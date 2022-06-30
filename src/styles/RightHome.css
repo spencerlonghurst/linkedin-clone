@@ -3,5 +3,12 @@
   border: 1px solid #e2e1de;
   background-color: #ffffff;
   border-radius: 12px;
-  height: 450px
+  height: 100%;
+  padding-bottom: 1.5%;
+}
+
+.right_home_title {
+  font-size: 16px;
+  font-weight: 550;
+  padding: 4% 0% 2% 4%;
 }
