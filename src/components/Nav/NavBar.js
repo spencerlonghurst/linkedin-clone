@@ -30,37 +30,37 @@ function NavBar() {
       <div className='middle_nav'>
         <Link to='/' className='nav_button feed'>
           <div>
-            <HomeRoundedIcon />
+            <HomeRoundedIcon className='nav_icon'/>
             <p className='nav_words'>Home</p>
           </div>
         </Link>
         <Link to='mynetwork' className='nav_button my_network'>
           <div>
-            <PeopleAltRoundedIcon />
+            <PeopleAltRoundedIcon className='nav_icon' />
             <p className='nav_words'>My Network</p>
           </div>
         </Link>
         <Link to='jobs' className='nav_button jobs'>
           <div>
-            <WorkRoundedIcon />
+            <WorkRoundedIcon className='nav_icon' />
             <p className='nav_words'>Jobs</p>
           </div>
         </Link>
         <Link to='messaging' className='nav_button messaging'>
           <div>
-            <SmsRoundedIcon />
+            <SmsRoundedIcon className='nav_icon' />
             <p className='nav_words'>Messaging</p>
           </div>
         </Link>
         <Link to='notifications' className='nav_button notifications'>
           <div>
-            <NotificationsRoundedIcon />
+            <NotificationsRoundedIcon className='nav_icon' />
             <p className='nav_words'>Notifications</p>
           </div>
         </Link>
         <div className='nav_button me'>
-          <Avatar src='https://media-exp2.licdn.com/dms/image/D4E35AQH9q2RXkLC18w/profile-framedphoto-shrink_100_100/0/1652462716437?e=1656950400&v=beta&t=0qqQ6yxhH0ShWbjLMF3FbaYYR2Nq4LKGHFttnvKPYg4'/>
-          <p className='nav_words'>Me <ArrowDropDownIcon /></p>
+          <Avatar className='nav_avatar' src='https://media-exp2.licdn.com/dms/image/D4E35AQH9q2RXkLC18w/profile-framedphoto-shrink_100_100/0/1652462716437?e=1656950400&v=beta&t=0qqQ6yxhH0ShWbjLMF3FbaYYR2Nq4LKGHFttnvKPYg4'/>
+          <p className='nav_words'>Me <ArrowDropDownIcon className='nav_icon_arrow'/></p>
         </div>
       </div>
 

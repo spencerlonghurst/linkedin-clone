@@ -4,6 +4,7 @@
   display: flex;
   justify-content: center;
   padding-top: 0.3%;
+  height: 48px;
 }
 
 .left_nav {
@@ -29,11 +30,12 @@
   flex-direction: column;
   color: #666666;
   justify-content: center;
-  /* align-items: center; */
-  margin: 0% 0.75%;
+  align-items: center;
+  /* margin: 0% 0.75%; */
   padding: 0% 3%;
   flex-wrap: nowrap;
-  /* border: 1px solid red; */
+  /* border: 1px solid purple; */
+  text-decoration: none;
 }
 
 .nav_button:hover{
@@ -46,8 +48,35 @@
   flex-direction: row;
   /* padding: 0% 35%; */
   flex-wrap: nowrap;
-  /* border: 1px solid red; */
+  /* border: 1px solid blue; */
+  flex-wrap: nowrap;
+  width: 105%;
+  padding-bottom: 10%;
 }
+
+.my_network {
+  /* width: 200px; */
+  /* color: red; */
+}
+
+.nav_icon {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid green; */
+}
+
+.nav_icon_arrow {
+  /* border: 1px solid red; */
+  height: 20px !important;
+}
+
+.nav_avatar {
+  height: 25px !important;
+  width: 25px !important;
+}
+
+
+
 
 .right_nav {
   /* border: 1px solid red; */
