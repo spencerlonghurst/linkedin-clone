@@ -8,6 +8,7 @@
 
 .left_nav {
   display: flex;
+  /* border: 1px solid red; */
 }
 
 .linkedin_icon {
@@ -16,8 +17,11 @@
 }
 
 
-.right_nav {
+.middle_nav {
   display: flex;
+  flex-direction: row;
+  /* border: 1px solid red; */
+  width: 40%
 }
 
 .nav_button {
@@ -27,7 +31,7 @@
   justify-content: center;
   /* align-items: center; */
   margin: 0% 0.75%;
-  padding: 1% 7%;
+  padding: 0% 3%;
   flex-wrap: nowrap;
   /* border: 1px solid red; */
 }
@@ -43,4 +47,10 @@
   /* padding: 0% 35%; */
   flex-wrap: nowrap;
   /* border: 1px solid red; */
+}
+
+.right_nav {
+  /* border: 1px solid red; */
+  display: flex;
+  align-items: center;
 }
