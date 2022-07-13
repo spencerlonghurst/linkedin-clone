@@ -23,7 +23,7 @@ function NavBar() {
       <Link to='/'>
         <div className='left_nav'>
           <LinkedInIcon className='linkedin_icon'/>
-          <input type='text' placeholder='Search'/>
+          <input className='nav_searchbar' type='text' placeholder='Search'/>
         </div>
       </Link>
 
@@ -59,7 +59,7 @@ function NavBar() {
           </div>
         </Link>
         <div className='nav_button me'>
-          <Avatar className='nav_avatar' src='https://media-exp2.licdn.com/dms/image/D4E35AQH9q2RXkLC18w/profile-framedphoto-shrink_100_100/0/1652462716437?e=1656950400&v=beta&t=0qqQ6yxhH0ShWbjLMF3FbaYYR2Nq4LKGHFttnvKPYg4'/>
+          <Avatar className='nav_avatar' src='https://avatars.githubusercontent.com/u/94577635?v=4'/>
           <p className='nav_words'>Me <ArrowDropDownIcon className='nav_icon_arrow'/></p>
         </div>
       </div>
