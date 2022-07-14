@@ -34,7 +34,7 @@ function NavBar() {
             <p className='nav_words'>Home</p>
           </div>
         </Link>
-        <Link to='mynetwork' className='nav_button my_network'>
+        <Link to='mynetwork' className='nav_button'>
           <div>
             <PeopleAltRoundedIcon className='nav_icon' />
             <p className='nav_words'>My Network</p>

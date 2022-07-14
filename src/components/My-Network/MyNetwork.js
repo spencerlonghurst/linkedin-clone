@@ -1,8 +1,12 @@
 import React from 'react'
+import './styles/MyNetwork.css';
+import LeftMyNetwork from './LeftMyNetwork';
 
 function MyNetwork() {
   return (
-    <div>MyNetwork</div>
+    <div className='my_network'>
+      <LeftMyNetwork />
+    </div>
   )
 }
 
