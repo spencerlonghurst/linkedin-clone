@@ -1,4 +1,9 @@
 .left_my_network {
+  background-color: #ffffff;
+  width: 325px;
+  border-radius: 12px;
+  border: 1px solid #e0dfdb;
+  margin-right: 25px;
 }
 
 .network_button {
