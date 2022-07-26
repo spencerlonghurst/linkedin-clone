@@ -11,14 +11,23 @@ import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import { Link } from "react-router-dom";
 import Toggle from './Toggle';
 
+import useLocalStorageState from 'use-local-storage-state';
+
 function NavBar() {
   const [toggled, setToggled] = useState(false)
   const handleClick = () => {
     setToggled(s => !s)
   }
+
+  const [theme, setTheme] = useLocalStorageState('theme' ? 'dark' : 'light')
+  const switchTheme = () => {
+    const newTheme = theme === 'light' ? 'dark' : 'light';
+    setTheme(newTheme)
+  }
+
   return (
 
-    <div className='nav_bar'>
+    <div className='nav_bar' data-theme={theme}>
 
       <Link to='/'>
         <div className='left_nav'>
@@ -65,7 +74,8 @@ function NavBar() {
       </div>
 
       <div className='right_nav'>
-        <Toggle toggled={toggled} onClick={handleClick}/>
+        <Toggle toggled={toggled} onClick={() => {
+          handleClick(); switchTheme()}} />
       </div>
     </div>
   )
