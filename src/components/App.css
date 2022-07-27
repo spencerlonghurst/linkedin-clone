@@ -1,0 +1,11 @@
+:root {
+  --background: #f3f2ef;
+}
+
+[data-theme='dark'] {
+  --background: #000000;
+}
+
+.main_app {
+  background-color: var(--background);
+}

@@ -1,5 +1,5 @@
 :root {
-  --background: #ffffff;
+  --navBackground: #ffffff;
   --border-right: #ebebeb;
   --searchBar: #eef3f8;
   --iconColor: #666666;
@@ -8,7 +8,7 @@
 }
 
 [data-theme='dark'] {
-  --background: #1d2226;
+  --navBackground: #1d2226;
   --border-right: #383d40;
   --searchBar: #38434f;
   --iconColor: #bcbdbe;
@@ -17,8 +17,8 @@
 }
 
 .nav_bar {
-  /* border: 1px solid blue; */
-  background-color: var(--background);
+  /* border-bottom: 1px solid #ebebeb; */
+  background-color: var(--navBackground);
   display: flex;
   justify-content: center;
   padding-top: 0.3%;
@@ -88,10 +88,10 @@
   padding-bottom: 10%;
 }
 
-.my_network {
-  /* width: 200px; */
-  /* color: red; */
-}
+/* .my_network {
+  width: 200px;
+  color: red;
+} */
 
 .nav_icon {
   display: flex;
