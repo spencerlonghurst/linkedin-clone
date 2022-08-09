@@ -1,8 +1,24 @@
+:root {
+  --writeBackground: #ffffff;
+  --writeBorder: #e2e1de;
+  --writeTextColor: #777777;
+  --writeInnerBorder: #777777;
+}
+
+[data-theme='dark'] {
+  --writeBackground: #1d2226;
+  --writeBorder: #222222;
+  --writeTextColor: #e9e9ea;
+  --writeInnerBorder: #777a7d;
+}
+
+
+
 .write_post {
   height: 115px;
-  background-color: #ffffff;
+  background-color: var(--writeBackground);
   border-radius: 12px;
-  border: 1px solid #e2e1de;
+  border: 1px solid var(--writeBorder);
   /* margin-bottom: 3%; */
 }
 
@@ -21,11 +37,12 @@
 .post_input {
   width: 100%;
   border-radius: 25px;
-  border: 1px solid #777777;
+  border: 1px solid var(--writeInnerBorder);
+  background-color: var(--writeBackground);
 }
 
 .post_input::placeholder {
-  color: #777777;
+  color: var(--writeTextColor);
   font-weight: 550;
   font-size: 14px;
   padding-left: 4%;
@@ -54,7 +71,7 @@
   padding: 0% 3%;
   /* border: 1px solid blue; */
   display: flex;
-  color: #666666;
+  color: var(--writeTextColor);
   font-weight: 550;
   font-size: 14px;
 }

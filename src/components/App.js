@@ -11,10 +11,6 @@ import useLocalStorageState from 'use-local-storage-state';
 
 function App() {
   const [theme, setTheme] = useLocalStorageState('theme' ? 'dark' : 'light')
-  const switchTheme = () => {
-    const newTheme = theme === 'light' ? 'dark' : 'light';
-    setTheme(newTheme)
-  }
 
   return (
     <Router>
