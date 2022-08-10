@@ -2,12 +2,22 @@
   --contentBackground: #ffffff;
   --writeBorder: #e2e1de;
   --contentHorizontal: #bebebe;
+  --contentName: #000000;
+  --contentDetails: #6a6a6a;
+  --contentData: #000000;
+  --contentInteraction: #666666;
+  --contentHover: #d3d3d3;
 }
 
 [data-theme='dark'] {
   --contentBackground: #1d2226;
   --writeBorder: #222222;
   --contentHorizontal: #383d40;
+  --contentName: #e7e7e8;
+  --contentDetails: #626568;
+  --contentData: #e5e5e6;
+  --contentInteractionl: #e9e9ea;
+  --contentHover: #9c9e9f;
 }
 
 .content_card {
@@ -26,6 +36,7 @@
   display: flex;
   flex-direction: column;
   /* border: 1px solid red; */
+  margin-left: 2%;
 }
 
 .content_intro {
@@ -34,7 +45,7 @@
 
 .content_connection {
   margin-left: 2%;
-  color: #6a6a6a;
+  color: var(--contentDetails);
   font-size: 14px;
 }
 
@@ -46,22 +57,24 @@
 .content_name {
   font-size: 15px;
   font-weight: 550;
+  color: var(--contentName)
 }
 
 .content_title {
   font-size: 13px;
-  color: #6a6a6a;
+  color: var(--contentDetails);
 }
 
 .content_timestamp {
   font-size: 13px;
-  color: #6a6a6a;
+  color: var(--contentDetails);
 }
 
 .content_data {
   margin: 4% 4% 2.5% 4%;
   /* border: 1px solid green; */
   font-size: 15px;
+  color: var(--contentData);
 }
 
 .content_photo {
@@ -72,7 +85,7 @@
 .content_interaction {
   display: flex;
   justify-content: center;
-  color: #666666;
+  color: var(--contentInteractionl);
   margin: 1% 2%;
   border-top: 1px solid var(--contentHorizontal);
   left: 30%;
@@ -89,7 +102,7 @@
 }
 
 .content_icon_button:hover {
-  background-color: #d3d3d3;
+  background-color: var(--contentHover);
   border-radius: 12px;
   cursor: pointer;
 }
