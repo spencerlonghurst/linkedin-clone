@@ -5,14 +5,10 @@ import PhotoSizeSelectActualIcon from '@mui/icons-material/PhotoSizeSelectActual
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import EventIcon from '@mui/icons-material/Event';
 import ArticleIcon from '@mui/icons-material/Article';
-import useLocalStorageState from 'use-local-storage-state';
 
 function WritePost() {
-
-  const [theme, setTheme] = useLocalStorageState('theme' ? 'dark' : 'light')
-
   return (
-    <div className='write_post' data-theme={theme}>
+    <div className='write_post'>
       <div className='post_input_parent'>
         <Avatar className='post_input_avatar' src='https://avatars.githubusercontent.com/u/94577635?v=4'/>
         <input className='post_input' type='text' placeholder='Start a post about a topic that excites you'/>

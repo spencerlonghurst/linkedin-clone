@@ -1,8 +1,16 @@
+:root {
+  --horizontalLine: #bebebe;
+}
+
+[data-theme='dark'] {
+  --horizontalLine: #181818;
+}
+
 .content_horizontal_line {
   height: 1px;
   border: 0;
-  background-color: #bebebe;;
-
+  background-color: var(--horizontalLine);
   margin: 2.5% 0%;
 }
+
 
