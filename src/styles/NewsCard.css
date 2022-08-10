@@ -1,3 +1,13 @@
+:root {
+  --newsCardTitle: #000000;
+  --newsCardSubtitle: #6c6c6b;
+}
+
+[data-theme='dark'] {
+  --newsCardTitle: #e9e9ea;
+  --newsCardSubtitle: #a3a5a6;
+}
+
 .newscard {
   /* margin-bottom: 5%; */
   /* border: 1px solid red; */
@@ -7,10 +17,11 @@
 .newscard_title {
   font-size: 15px;
   font-weight: 550;
+  color: var(--newsCardTitle);
 }
 
 .newscard_subtitle {
-  color: #6a6a6a;
+  color: var(--newsCardSubtitle);
   font-size: 13px;
 }
 
@@ -20,7 +31,7 @@ ul {
 
 ul li::before {
   content: "\2022";
-  color: #666666;
+  color: var(--newsCardTitle);
   font-weight: bold; 
   display: inline-block; 
   width: 1em; 

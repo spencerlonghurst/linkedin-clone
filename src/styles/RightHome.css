@@ -1,7 +1,21 @@
+:root {
+  --contentBackground: #ffffff;
+  --rightBorder: #e2e1de;
+  --newsColor: #000000;
+  --smallText: #6c6c6b;
+}
+
+[data-theme='dark'] {
+  --contentBackground: #1d2226;
+  --rightBorder: #2d2f30;
+  --newsColor: #e9e9ea;
+  --smallText: #535759;
+}
+
 .right_home_top {
   width: 320px;
-  border: 1px solid #e2e1de;
-  background-color: #ffffff;
+  border: 1px solid var(--rightBorder);
+  background-color: var(--contentBackground);
   border-radius: 12px;
   padding-bottom: 4%;
   margin-bottom: 2%;
@@ -11,6 +25,7 @@
   font-size: 16px;
   font-weight: 550;
   padding: 4% 0% 2% 4%;
+  color: var(--newsColor);
 }
 
 .right_home_bottom {
@@ -20,7 +35,7 @@
 }
 
 .small_text {
-  color: #6c6c6b;
+  color: var(--smallText);
   font-size: 12px;
   display: flex;
   flex-direction: column;
